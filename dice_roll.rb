@@ -9,5 +9,5 @@
 
 def roll
   die_sides = [1,2,3,4,5,6]
-  array[rand(0..die_sides.size-1)]
+  die_sides[rand(0..die_sides.size-1)]
 end
